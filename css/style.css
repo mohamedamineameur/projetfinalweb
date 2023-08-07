@@ -1,0 +1,68 @@
+body {
+   
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.tableau {
+    border-collapse: collapse;
+    border: solid black 5px;
+}
+
+.ligne_tableau {
+    background-color: white;
+}
+
+.colone_tableau {
+    width: 20px;
+    height: 20px;
+    
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+#grille{
+    margin-bottom: 2em;
+}
+
+#remzero{
+    margin-top: 3em;
+    width: 150px;
+}
+
+.sol{
+    background-image: url("../img/sol.png");
+    background-size: cover;
+}
+
+#haut{
+    margin-top: 3em;
+}
